@@ -6,3 +6,4 @@ resources:
 labels:
   - pairs:
       env: dev
+    includeTemplates: true
