@@ -1,4 +1,3 @@
-cat > ~/platform-gitops/apps/hello/overlays/prod/replicas-patch.yaml <<'EOF'
 apiVersion: apps/v1
 kind: Deployment
 metadata:
