@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/vmaltsev-tech/platform-gitops.git
     targetRevision: main
-    path: apps/hello
+    path: apps/hello/overlays/dev
   destination:
     server: https://kubernetes.default.svc
     namespace: hello
