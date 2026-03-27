@@ -7,3 +7,5 @@ labels:
   - pairs:
       env: prod
     includeTemplates: true
+patches:
+  - path: replicas-patch.yaml
